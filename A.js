@@ -227,6 +227,10 @@ function GodAI(){
         }
     }
 
+    if ((ticArr[1] == 1) && (ticArr[5] == 1) && (ticArr[2] == 0)) {
+        return 2;
+    }
+
     if (ticArr[1] == 0) {
         return 1;
     } else if (ticArr[3] == 0) {
